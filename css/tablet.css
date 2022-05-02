@@ -1,0 +1,17 @@
+.main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+    
+}
+.product-cards--container{
+    display: flex;
+    /* Para evitar el overflow */
+    flex-wrap: wrap;
+    width: 930px;
+    /* Cuando vaya creciendo */
+    margin: 0 auto;
+}
+.plans-container--sliders {
+    justify-content: center;
+}
